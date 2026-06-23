@@ -9,7 +9,7 @@ stages:
     pool:
       vmImage: ubuntu-latest
     steps:
-    - task: Maven@3
+    - task: Maven@4
       inputs:
         mavenPomFile: 'artifact1/pom.xml'
         mavenOptions: '-Xmx3072m'
